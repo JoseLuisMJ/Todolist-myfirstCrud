@@ -1,46 +1,14 @@
-/* 
-body {
-    font-family: sans-serif;
-    margin: 0 50px;
-  }
-  
-  .container {
-    display: flex;
-    gap: 50px;
-  }
-  
-  #posts {
-    width: 400px;
-  }
-  
-  i {
-    cursor: pointer;
-  }
-  
-  #posts div {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .options {
-    display: flex;
-    gap: 25px;
-  }
-  
-  #msg {
-    color: red;
-  }
-   */
-
-   .title{
+ .list {
     color: white;
-    background-color: grey;
+    background-color: rgb(115, 137, 173);
     width: 32%;
-    height: 100px;
+    height: 32%;
     text-align: center;
     border-radius: 5px;
-    margin-bottom: 20px;
+    margin-bottom: auto;
+    margin-top: 15%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #name-input{
@@ -49,14 +17,16 @@ body {
     margin-bottom: 20px;
 }
 
-#add{
+.add {
     color: white;
-    background-color: #04AA6D;
+    background-color: #ee7575;
     padding: 7px 12px;
     border-radius: 5PX;
 }
 
-#person-list {
-  list-style-type: none;
-  padding: 0;
+ul {
+  margin-left: 20%;
+  margin-right: 15%;
+  width: 40%;
+  align-items: center;
 }
